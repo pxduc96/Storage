@@ -38,7 +38,7 @@
 
 	Là tập hợp của nhiều physical volumes
 	
-	![](../../lvm_2.png)
+	![](../../images/lvm_2.png)
 
 	dung lượng của volume groups bằng tổng dung lượng các physical volume.
 	
@@ -46,7 +46,7 @@
 
 	Được tạo ra từ volume groups. Dung lượng của logical volume không thể vượt quá dung lượng của volume group. Logical volume sẽ được format, mount để sử dụng
 	
-	![](../../lvm_3.png)
+	![](../../images/lvm_3.png)
 
 - `File system`: là tầng cao nhất trong LVM, chịu trách nhiệm quản lý, tổ chức, cách thức lưu trữ, ... các file.
 
