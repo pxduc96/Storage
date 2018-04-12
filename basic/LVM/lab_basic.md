@@ -16,7 +16,7 @@ Chuẩn bị một máy ảo Ubuntu server 16.04. Máy ảo được thêm 4 ổ
 #### Bước 2: Tạo partition
 - Từ các Hard Drives trên hệ thống, tạo các partition. Ví dụng sử dụng lệnh `fdisk /dev/sdb` để thực hiện tạo partition cho ổ `/dev/sdb`
 
-	![](../../lvm_6.png)
+	![](../../images/lvm_6.png)
 	
 - Trong đó bạn chọn `n` để bắt đầu tạo partition
 - Bạn chọn `p` để tạo partition primary
@@ -26,11 +26,11 @@ Chuẩn bị một máy ảo Ubuntu server 16.04. Máy ảo được thêm 4 ổ
 - Bạn chọn `w` để lưu lại và thoát.
 - Tiếp theo bạn thay đổi định dạng của partition vừa mới tạo thành LVM
 
-	![](../../lvm_7.png)
+	![](../../images/lvm_7.png)
 	
 - Làm tương tự, ta tạo ra 6 partition như sau:
 
-	![](../../lvm_8.png)
+	![](../../images/lvm_8.png)
 	
 #### Bước 3: Tạo physical volume
 - Mỗi partition tương ứng với một physical volume.
